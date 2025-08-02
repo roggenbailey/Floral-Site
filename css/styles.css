@@ -101,7 +101,7 @@ nav li a:hover {
  }
 
  .call2act {
-    background-image: url(Floral-Site/images/softbackground.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -400,4 +400,5 @@ figure {
     
 
 }
+
 
