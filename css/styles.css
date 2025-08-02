@@ -101,7 +101,7 @@ nav li a:hover {
  }
 
  .call2act {
-    background-color: #BCB88A;
+    background-image: url(/images/background.jpg);
     margin-bottom: 45px;
     height: 500px;
  }
@@ -397,6 +397,7 @@ figure {
     
 
 }
+
 
 
 
