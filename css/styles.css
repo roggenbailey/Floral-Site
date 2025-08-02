@@ -101,6 +101,7 @@ nav li a:hover {
  }
 
  .call2act {
+     background-color: #BCB88A;
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -400,5 +401,6 @@ figure {
     
 
 }
+
 
 
