@@ -119,6 +119,20 @@ nav li a:hover {
     margin-top: 200px;
  }
 
+ .services {
+  background-color: #EDCDC2;
+  margin: 70px;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid;
+  align-items: center;
+  align-self: center;
+ }
+
+ #service {
+  font-size: larger;
+ }
+
 @media (min-width: 768px) {
   .button-74 {
     min-width: 120px;
