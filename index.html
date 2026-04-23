@@ -1,108 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="script.js"></script>
-    <title>Willow & Pine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Willow & Pine</title>
 </head>
-
 <body>
 
-    <header>
+<header>
+  <nav id="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="#abouthead">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-        <nav id="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-               <li><a href="services.html">Services</a></li>
-               <li><a href="gallery.html">Gallery</a></li>
-               <li><a href="#abouthead">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<div class="call2act">
+  <div>
+    <h2>Ready to start planning something beautiful?</h2>
+    <a href="contact.html" class="servicesbtn" id="bookbutton">Book a Consultation</a>
+  </div>
+</div>
 
-    </header>
-
-    <div class="call2act">
-        <div>
-            <h2>Ready to start planning something beautiful?</h2>
-            <button class="servicesbtn" id="bookbutton"><a href="contact.html">Book a Consultation</a></button>
-        </div>
-    </div>
-
-
+<section class="carousel-section">
+  <div class="container">
     <div class="carousel">
-        <section>
-            <div class="container">
-                <div class="carousel">
-                    <input type="radio" name="slides" checked="checked" id="slide-1">
-                    <input type="radio" name="slides" id="slide-2">
-                    <input type="radio" name="slides" id="slide-3">
-                    <input type="radio" name="slides" id="slide-4">
-                    <input type="radio" name="slides" id="slide-5">
-                    <input type="radio" name="slides" id="slide-6">
-                    <ul class="carousel__slides">
-                        <li class="carousel__slide">
-                            <figure>
-                                <div>
-                                    <img src="images/weddingfloral.jpg" alt="wedding florals">
-                                </div>
-                                <figcaption>
-                                    Wedding Floral Design
-                                    <span class="credit">Bouquets, centerpieces, and installations tailored to your story.</span>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li class="carousel__slide">
-                            <figure>
-                                <div>
-                                    <img src="images/eventstyling.jpg" alt="event example">
-                                </div>
-                                <figcaption>
-                                    Event Styling
-                                    <span class="credit">Thoughtful details and curated decor to bring your vision to life.</span>                            
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li class="carousel__slide">
-                            <figure>
-                                <div>
-                                    <img src="images/designconsult.jpg" alt="design Consultations">
-                                </div>
-                                <figcaption>
-                                    Design Consultations
-                                    <span class="credit">Expert guidance for couples and planners.</span>                            
-                                </figcaption>
-                            </figure>
-                        </li>
-                    </ul>    
-                    <ul class="carousel__thumbnails">
-                        <li>
-                            <label for="slide-1"><img src="images/weddingfloral.jpg" alt=""></label>
-                        </li>
-                        <li>
-                            <label for="slide-2"><img src="images/eventstyling.jpg" alt=""></label>
-                        </li>
-                        <li>
-                            <label for="slide-3"><img src="images/designconsult.jpg" alt=""></label>
-                        </li>
-                        <button class="servicesbtn" id="servicesbtn"><a href="services.html">Explore Our Services</a></button>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </div>
+      <input type="radio" name="slides" checked id="slide-1">
+      <input type="radio" name="slides" id="slide-2">
+      <input type="radio" name="slides" id="slide-3">
 
-    <div class="aboutprev">
-        <h1 id="abouthead">About Us.</h1>
-        <div id="aboutstuff">
-            <p id="aboutcont">At Willow & Pine, we craft timeless floral designs and elevated event experiences that celebrate 
-            natural beauty. We specialize in weddings and intimate gatherings with a refined, romantic touch.</p>
-        </div>
+      <ul class="carousel__slides" style="list-style:none;padding:0;">
+        <li class="carousel__slide">
+          <figure>
+            <img src="images/weddingfloral.jpg" alt="Wedding Florals">
+            <figcaption>
+              Wedding Floral Design
+              <span class="credit">Bouquets, centerpieces, and installations tailored to your story.</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="carousel__slide">
+          <figure>
+            <img src="images/eventstyling.jpg" alt="Event Styling">
+            <figcaption>
+              Event Styling
+              <span class="credit">Thoughtful details and curated decor to bring your vision to life.</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="carousel__slide">
+          <figure>
+            <img src="images/designconsult.jpg" alt="Design Consultations">
+            <figcaption>
+              Design Consultations
+              <span class="credit">Expert guidance for couples and planners.</span>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+
+      <ul class="carousel__thumbnails">
+        <li><label for="slide-1"><img src="images/weddingfloral.jpg" alt="Wedding Florals"></label></li>
+        <li><label for="slide-2"><img src="images/eventstyling.jpg" alt="Event Styling"></label></li>
+        <li><label for="slide-3"><img src="images/designconsult.jpg" alt="Design Consultations"></label></li>
+        <li style="display:flex;align-items:center;">
+          <a href="services.html" class="servicesbtn" id="servicesbtn">Explore Our Services</a>
+        </li>
+      </ul>
     </div>
-    
+  </div>
+</section>
+
+<div class="aboutprev">
+  <h1 id="abouthead">About Us.</h1>
+  <div id="aboutstuff">
+    <p id="aboutcont">At Willow & Pine, we craft timeless floral designs and elevated event experiences that celebrate 
+    natural beauty. We specialize in weddings and intimate gatherings with a refined, romantic touch.</p>
+  </div>
+</div>
+
+<footer>&copy; 2025 Willow &amp; Pine &mdash; Floral Design &amp; Event Styling</footer>
+
 </body>
-
-
 </html>
